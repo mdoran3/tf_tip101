@@ -1,4 +1,6 @@
-# Problem 3: Remove Tail
+#########################
+# PROBLEM 3: REMOVE TAIL
+#########################
 
 # The following code attempts to remove the tail 
 # of a singly linked list. However, it has a bug!

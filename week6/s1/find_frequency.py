@@ -1,4 +1,6 @@
-# Problem 2: Find Frequency
+##############################
+# PROBLEM 2: FIND FREQUENCY
+##############################
 
 # Given the head of a linked list and a value val, 
 # return the frequency of val in the list. Evaluate 
