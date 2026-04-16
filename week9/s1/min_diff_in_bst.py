@@ -7,6 +7,7 @@
 # any two different nodes in the tree.
 
 # Evaluate the time complexity of your function.
+    # O(N) becuase every node is visited
 
 ### U - Understand 
 # 1. Share 2 questions you would ask to help understand the question:
