@@ -8,6 +8,7 @@
 # A leaf is a node with no children.
 
 # Evaluate the time complexity of your function.
+    # O(N) because every node is visited once
 
 ### U - Understand 
 # 1. Share 2 questions you would ask to help understand the question:
