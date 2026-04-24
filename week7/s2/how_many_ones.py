@@ -33,12 +33,12 @@
 # 4. Translate the pseudocode into Python and share your final answer:
 def count_ones(lst):
     lo, hi = 0, len(lst) - 1
-    first_one = len(lst)  # default: no 1s found
+    first_one = len(lst) 
     while lo <= hi:
         mid = (lo + hi) // 2
         if lst[mid] == 1:
             first_one = mid
-            hi = mid - 1  # keep searching left for earlier 1
+            hi = mid - 1 
         else:
             lo = mid + 1
     return len(lst) - first_one
