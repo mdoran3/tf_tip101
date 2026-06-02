@@ -2,6 +2,12 @@
 # Problem 1: Hello User! #
 ##########################
 
+# Write a function greet_user() that takes in a string name as 
+# a parameter and prints "Hello <name>".
+
+# Example Input: Michael
+# Example Output: Hello Michael
+
 ### U - Understand 
 # 1. Share 2 questions you would ask to help understand the question:
 #   What is a variable and how do we create one in Python?
