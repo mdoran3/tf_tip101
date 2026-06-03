@@ -38,3 +38,82 @@ def count_less_than(numbers, threshold):
 numbers = [12,8,2,4,4,10]
 counter = count_less_than(numbers,5)
 print(counter)
+
+
+#########################
+# Problem 7: Evens List #
+#########################
+
+# Write a function get_evens() that takes in a list 
+# of integers lst as a parameter and returns a list 
+# of all even numbers in the list.
+
+### U - Understand 
+# 1. Share 2 questions you would ask to help understand the question:
+#   What is the space complexity of this algorithm and why?
+#   What key mathematical feature, often used in CS, whill be utilized 
+#       in this problem for find evens?
+
+### P - Plan
+# 2. Write out in plain English what you want to do: 
+#   Create an evens list variable
+#   Iterate through the lst
+#   Check if each number in list is even
+#   If it is even, add it to the evens list
+#   return evens list
+
+# 3. Translate each sub-problem into pseudocode:
+#   func(lst):
+#       evens = []
+#       for num in lst:
+#           if num is even
+#               append to evens
+#       return evens
+
+### I - Implement
+# 4. Translate the pseudocode into Python and share your final answer:
+def get_evens(lst):
+    evens = []
+    for num in lst:
+        if num % 2 == 0:
+            evens.append(num)
+    return evens
+
+lst = [1,2,3,4]
+evens_lst = get_evens(lst)
+print(evens_lst)
+
+
+#############################
+# Problem 8: Multiples of 5 #
+#############################
+
+# Write a function multiples_of_five() that prints 
+# out multiples of 5 between 1 and 100 (inclusive).
+
+### U - Understand 
+# 1. Share 2 questions you would ask to help understand the question:
+#   What key mathematical operator is used in this function?
+#   Do we have to iterate through all numbers 1 -100?
+#   What does this function return?
+
+### P - Plan
+# 2. Write out in plain English what you want to do: 
+#   Iterate through numbers ranging from 1 - 100 
+#   Check if each number is a multiple of 5
+#   If it is, print it to the console
+
+# 3. Translate each sub-problem into pseudocode:
+#   func(lst):
+#       for num in range(1, 101)
+#           if num is multiple of 5
+#               print num
+
+### I - Implement
+# 4. Translate the pseudocode into Python and share your final answer:
+def multiples_of_five():
+    for num in range(1, 101):
+        if num % 5 == 0:
+            print(num)   
+
+multiples_of_five()
