@@ -47,8 +47,8 @@ pointers reach the opposite ends of the list.
 ### I - Implement
 # 4. Translate the pseudocode into Python and share your final answer:
 def is_palindrome(s):
-    start = 0
-    end =len(s) - 1
+    start = 0       # 1st pointer
+    end =len(s) - 1 # 2nd pointer
     while start <= end:
         if s[start] != s[end]:
             return False
